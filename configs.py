@@ -7,17 +7,17 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "11484651"))
-    API_HASH = os.getenv("API_HASH", "9d058bf3591ddba2870ea61836571eae")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5765769840:AAF3X6xQ6Hr15CR6rk4pG4Ymi2VaeVO14T0")
+    API_ID = int(os.getenv("API_ID", "11628395"))
+    API_HASH = os.getenv("API_HASH", "31a92babd97bd2a9c20907f516011f14")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5573121186:AAGpKaTW9C8b4vpQuPQbGkiNo9BR4t5DjAw")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "IPopcornSearchMovie")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLoBu5VsrRXgn0LtgI84GxsokWNgkHSbUix1h85-Jq0wvTHJIhUxhW0VVRLbikg_yDmYnSJ4YX3gBvpEiim8Zs5ScUKMAPGjabXybJRpG83SxWQfg_BN9xnlBsz_Fbed2PK3BF39J6nMm4bLChQWH94PWS7y46vTfJh_nJZUbZZoEPIQEayuHy0pIfyd1qhDJfSdpf5LoQEXUBOF80O1qoWTwdO5zdU0WXKLVgTR9Fa5QUd3PruuS9j-hslhhiQF2TZBwhiR1d1dpdDq8Qpzf2wlmxDk5EcUUE6k_rDP4aI32boNz7cBqcKf9meqQ8PVAw4dVuhpE432IAh5388p_ZHTYvQ=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001805172580"))
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "@IPopcornSearch_bot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5750247178"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "JayeshRajput11")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001765935167")
-#    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "iPopcornGroup")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001747654170"))
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "@HDFilmz4U_Searchbot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1316494209"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Light Yagami")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001747654170"))
+#    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "HDFilmz4U")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
 I'ᴍ A Bᴏᴛ Fᴏʀ Sᴇɴᴅɪɴɢ Fʀᴏᴍ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.😚
@@ -30,9 +30,9 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001658241774")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001724193623")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Raja:JayR1112@cluster0.5lfbg1t.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001698258629"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001566505151"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", "10"))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "Mp5moviez")
