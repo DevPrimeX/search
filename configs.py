@@ -18,13 +18,7 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Light Yagami")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "HDFilmsArea")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "HDFilmz4U")
-    START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
-
-I'ᴍ A Bᴏᴛ Fᴏʀ Sᴇɴᴅɪɴɢ Fʀᴏᴍ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.😚
-
-Yᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.☺️
-
-Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
+    START_MSG = os.getenv("START_MSG", ''f"<b>👋Hi <u>{message.from_user.first_name}</u></b>⚡️\n\nWelcome to <b><u>Movies & Series Search Bot</u></b>🤗\n\n<i>I can give you direct mdisk & Vivdisk movies🎬 link🔗 to download. So simply send me the names.</i>"''')
     START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/ce69fe31b78cc88788035.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", '''ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
@@ -40,7 +34,5 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "300"))
     MDISK_API = os.getenv("MDISK_API", "True")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "30"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
-
-''')
-    ABOUT_HELP_TEXT = os.getenv("Main Channel 🔥", '''https://telegram.dog/HDFilmsArea''')
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''If you want to use this bot in your group then contact Me @''')
+    MAIN_CHANNEL = os.getenv("Main Channel 🔥", '''https://telegram.dog/HDFilmsArea''')
