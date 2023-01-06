@@ -18,7 +18,7 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Light Yagami")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "HDFilmsArea")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "HDFilmz4U")
-    START_MSG = os.getenv("START_MSG", ''f"<b>👋Hi <u>{message.from_user.first_name}</u></b>⚡️\n\nWelcome to <b><u>Movies & Series Search Bot</u></b>🤗\n\n<i>I can give you direct mdisk & Vivdisk movies🎬 link🔗 to download. So simply send me the names.</i>"''')
+    START_MSG = os.getenv("START_MSG", ''f"<b>👋Hi <u>{message.from_user.first_name}</u></b>⚡️\n\nWelcome to <b><u>Movies & Series Search Bot</u></b>🤗\n\n<i>I can give you direct mdisk & Vivdisk movies🎬 link🔗 to download. So simply send me the names.</i>''')
     START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/ce69fe31b78cc88788035.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", '''ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
