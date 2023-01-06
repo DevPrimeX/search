@@ -35,4 +35,4 @@ class Config(object):
     MDISK_API = os.getenv("MDISK_API", "True")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "30"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''If you want to use this bot in your group then contact Me @''')
-    MAIN_CHANNEL = os.getenv("Main Channel 🔥", '''https://telegram.dog/HDFilmsArea''')
+    ABOUT_HELP_TEXT = os.getenv("", '''''')
