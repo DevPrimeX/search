@@ -18,12 +18,9 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Light Yagami")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "HDFilmsArea")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "HDFilmz4U")
-    START_MSG = os.getenv("START_MSG", '''<b>👋Hi Buddy 👻 </b>⚡️\n\nWelcome to <b><u>Movies & Series Search Bot</u></b>🤗\n\n<i>I can give you direct mdisk & Vivdisk movies🎬 link🔗 to download. So simply send me the names.</i>''')
+    START_MSG = os.getenv("START_MSG", '''<b>👋Hi Buddy</b>⚡️\n\nWelcome to <b><u>Movies & Series Search Bot</u></b>🤗\n\n<i>I can give you direct mdisk & Vivdisk movies🎬 link🔗 to download. So simply send me the names.</i>''')
     START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/ce69fe31b78cc88788035.jpg")
-    HOME_TEXT = os.getenv("HOME_TEXT", '''ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
-
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
-ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
+    HOME_TEXT = os.getenv("HOME_TEXT", '''<b>👋Hi Buddy</b>⚡️\n\nWelcome to <b><u>Movies & Series Search Bot</u></b>🤗\n\n<i>I can give you direct mdisk & Vivdisk movies🎬 link🔗 to download. So simply send me the names.</i>''')
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001840171626")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lightyagm99:Lokesh666@cluster0.cbfutjd.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001566505151"))
@@ -34,5 +31,5 @@ class Config(object):
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "300"))
     MDISK_API = os.getenv("MDISK_API", "True")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "30"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''If you want to use this bot in your group then contact Me @''')
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''If you want to use this bot in your group then contact Me @Anime_Lover0_0''')
     ABOUT_HELP_TEXT = os.getenv("", '''''')
