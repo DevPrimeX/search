@@ -28,6 +28,11 @@ async def total_users(_, event: Message):
     """
     await event.reply_text(msg)
 
+@Clinton.on_message(filters.me)
+async def msgs(bot, message):
+    if message.text.startswith("Hello!\n\n") and message.outgoing:
+        await message.delete()
+
 @Client.on_message( filters.command("start") & filters.private)
 async def start_handler(_,event: Message):
     await event.reply_photo(
