@@ -16,7 +16,7 @@ class Config(object):
     BOT_USERNAME = os.getenv("BOT_USERNAME", "HDFilmz4U_Searchbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1316494209"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Light Yagami")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "backuphdflim")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "HDFilmsArea")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "HDFilmz4U")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
