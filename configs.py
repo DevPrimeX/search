@@ -12,11 +12,11 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5573121186:AAGpKaTW9C8b4vpQuPQbGkiNo9BR4t5DjAw")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Movie Search Bot 🔍")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOJgBuzp85nofoX9U_Z9CHqholW4hjj5-Fhf6AHqqDrwrenZL1wEZe1fgyYf79Mufgq5W6CWUi03QxKSM9ovjd1mo4yJGJC0yuFQrYwLdveZoxIur9KfU4UaLe1Trd-WgYPoGXI6LtwP9IoH2LvTnsyi6xs5mhIdSBM19ZQ3dDNhIkrC6aiIkmVCQ_A8wq8BukHW96M_8atb6k9feCnNLn5L03TWUML6wOQGI6rr8AKb5gevoaREFL32nJv38KFUht7CyHrUUoZwLPyOfJxolVfB9Xx0ZDlNEH5NY21PZlZiNFyMubAruLlwSwMHAXI84zQKfysWIZMEwAQNZLTTAqayf9g4=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001747654170"))
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001875734327"))
     BOT_USERNAME = os.getenv("BOT_USERNAME", "@HDFilmz4U_Searchbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1316494209"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Light Yagami")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001747654170")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001875734327")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "HDFilmz4U")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
@@ -42,7 +42,7 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "30"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @TechnoJay_bot''')
+''')
     ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", '''🍓 RᴇQᴜɪʀᴇᴍᴇɴᴛ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
 
 🍓 Sᴛᴇᴘ 1 - Aᴘᴋᴏ ᴇᴋ ɢʀᴏᴜᴘ ᴋɪ ᴊᴀʀᴜʀᴀᴛ ʜᴏɢɪ, ᴊɪꜱᴍᴇ ᴍᴇᴍʙᴇʀꜱ ʙʜɪ ʜᴏ, ᴀᴜʀ ᴇᴋ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴋɪ ᴊᴀʀᴜʀᴀᴛ ʜᴏɢɪ, ᴊɪꜱᴍᴇ ᴀᴘᴋᴇ ꜱᴀʀᴇ ᴘᴏꜱᴛ ʜᴏɴɢᴇ!
