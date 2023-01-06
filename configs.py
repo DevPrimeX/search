@@ -16,7 +16,7 @@ class Config(object):
     BOT_USERNAME = os.getenv("BOT_USERNAME", "HDFilmz4U_Searchbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1316494209"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Light Yagami")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "HDFilmsArea")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "backuphdflim")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "HDFilmz4U")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
@@ -30,7 +30,7 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001724193623")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001887491895")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lightyagm99:Lokesh666@cluster0.cbfutjd.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001566505151"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", "10"))
