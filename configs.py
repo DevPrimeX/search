@@ -22,7 +22,7 @@ class Config(object):
     START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/ce69fe31b78cc88788035.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", '''<b>👋Hi Buddy</b>⚡️\n\nWelcome to <b><u>Movies & Series Search Bot</u></b>🤗\n\n<i>I can give you direct mdisk & Vivdisk movies🎬 link🔗 to download. So simply send me the names.</i>''')
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001840171626")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Light:Light@cluster0.yugsnql.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lightyagm99:Lokesh666@cluster0.cbfutjd.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001566505151"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", "10"))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
