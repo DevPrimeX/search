@@ -13,15 +13,10 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 </p>
 </details>
 
-<details>
-  <summary><b>Deploy to Railway</b></summary>
-<br/>
-
-<p align="left">
-href="https://railway.app/new/template/y0ryFO">
-     <img height="30px" src="https://railway.app/button.svg">
-  </a>
-</p>
+<details><summary>Deploy on Railway</summary>
+<a href="https://railway.app/new/template/y0ryFO">
+<img src="https://railway.app/button.svg" alt="Deploy on Railway">
+</a>
 </details>
 
 <details>
