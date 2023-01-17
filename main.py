@@ -122,7 +122,7 @@ async def message_handler(event):
         else:
             pass
 
-        answer += f"\n\n**📥 Movie Kaise Download Kare 👇 https://t.me/HowToDownloadViv/9 \n🔥𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥👉 https://t.me/HDFilmsArea**"
+        answer += f"\n\n**📥 Movie Kaise Download Kare 👇 https://t.me/HowToDownloadViv/9 \n 🔥𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥👉 https://t.me/HDFilmsArea @{Config.UPDATES_CHANNEL_USERNAME}**"**"
         answer = await replace_username(answer)
         html_content = await markdown_to_html(answer)
         html_content = await make_bold(html_content)
